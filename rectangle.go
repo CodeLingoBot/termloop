@@ -17,7 +17,7 @@ func NewRectangle(x, y, w, h int, color Attr) *Rectangle {
 	return &r
 }
 
-// Draws the Rectangle r onto Screen s.
+// Draw: Draws the Rectangle r onto Screen s.
 func (r *Rectangle) Draw(s *Screen) {
 	for i := 0; i < r.width; i++ {
 		for j := 0; j < r.height; j++ {
